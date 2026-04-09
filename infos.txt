@@ -1,0 +1,8 @@
+Meta: Criar um site para treinamento de html e css, o site será baseado nos jogos que eu ja joguei e dirá a minha 
+experiencia neles.
+
+Cabeçalho: logo e os botoes para redirecionar para as paginas
+
+Criar as paginas Inicio, Jogos, Sobre(possivemente será alterado o nome no futuro), Contato
+
+Pagina inicial: Falar um pouco sobre mim !
