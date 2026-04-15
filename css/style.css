@@ -70,3 +70,23 @@ header li:last-child {
     align-items: center;
     flex-direction: column;
 }
+
+.pagina-inicio h1 {
+    font-size: 3.2rem;
+    margin-bottom: 15px;
+}
+
+.pagina-inicio p {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    width: 80%;
+    text-align: center;
+}
+
+.pagina-inicio .btn {
+    background-color: #fff;
+    border-radius: 4px;
+    color: #191c03;
+    padding: 20px 50px;
+    text-transform: uppercase;
+}
