@@ -3,6 +3,7 @@
     margin: 0px;
     font-size: 100%;
     font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
 }
 
 ul {
@@ -57,4 +58,15 @@ header li:first-child {
 
 header li:last-child {
     margin-right: 0px;
+}
+
+.pagina-inicio {
+    background-image: url(../img/background\ pagina\ inicio.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
