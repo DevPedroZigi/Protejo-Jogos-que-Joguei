@@ -177,4 +177,22 @@ header li:last-child {
 .jogos .grid {
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
+}
+
+.jogos .grid li {
+    height: 350px;
+    padding: 5px;
+    border-radius: 4px;
+    background-clip: content-box;
+    background-size: cover;
+    background-position: center;
+}
+
+.jogos .grid .small {
+    flex-basis: 40px;
+}
+
+.jogos .grid .large {
+    flex-basis: 60%;
 }
