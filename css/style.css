@@ -174,19 +174,24 @@ header li:last-child {
     border: none;
 }
 
+
 .jogos .grid {
-    width: 100%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center; /* Centraliza os itens se sobrarem */
+    gap: 10px;               /* Cria um espaçamento uniforme entre elas */
+    width: 100%;
+    padding: 0;
+    list-style: none;
 }
 
 .jogos .grid li {
-    height: 350px;
-    padding: 5px;
-    border-radius: 4px;
-    background-clip: content-box;
+    flex: 1 1 200px;        /* Faz com que elas cresçam e diminuam, com base mínima de 200px */
+    max-width: 23%;         /* Garante que fiquem 4 por linha em telas grandes */
+    height: 250px;          /* Defina uma altura fixa ou use aspect-ratio */
     background-size: cover;
     background-position: center;
+    border-radius: 4px;
 }
 
 .jogos .grid .small {
@@ -196,3 +201,4 @@ header li:last-child {
 .jogos .grid .large {
     flex-basis: 60%;
 }
+
