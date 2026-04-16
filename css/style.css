@@ -257,3 +257,36 @@ header li:last-child {
     cursor: pointer;
     text-transform: uppercase;
 }
+
+footer {
+    background-image: url(../img/71kDbxHyB4L.jpg);
+    background-size: cover;
+    background-position: 0 400px;
+    background-color: #8d7c5f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 50px;
+}
+
+footer ul {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+footer li {
+    margin-right: 10px;
+}
+
+footer li:last-child {
+    margin-right: 0px;
+}
+
+footer li a {
+    color: #000;
+    font-size: 2rem;
+}
+
+footer p {
+    color: #000;
+}
